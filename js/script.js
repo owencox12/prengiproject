@@ -29,8 +29,7 @@ var i = 0;
 var timer = 0;
         btn_next.onclick = function sliderRight(){
          images[i].style.opacity = 0;
-         i = i + 1;
-         tab[i].classList.toggle('list__active');      
+         i = i + 1;    
          if ( i >= images.length) {
              i = 0;
          }
