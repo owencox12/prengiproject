@@ -1,0 +1,47 @@
+.variants {
+    min-height: 580px;
+    position: relative;
+    overflow: hidden;
+    &__wrapper {
+        display: flex;
+    }
+    &__item {
+        width: 50%;
+    }
+    &__descr {
+        position: absolute;
+        top:48%;
+        &_left {
+            right: 54%
+        }
+        &_right {
+            left: 55%;
+        }
+    }
+    &__title {
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 22px;
+        text-transform: uppercase;
+        &_left {
+            text-align: right;
+        }
+        &_right {
+            text-align: left;
+        }
+    }
+    &__text {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 26px;
+        &_left {
+        text-align: right;
+        }
+        &_right {
+            text-align: left;
+        }
+
+    }
+}

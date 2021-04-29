@@ -1,0 +1,51 @@
+.about {
+    min-height: 896px;
+    background: #fff;
+    padding: 79px 0 81px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 360px;
+        height: 255px;
+        border: 1px solid #ececec;
+        padding: 0 50px;
+        margin: 0 15px;
+        &_img {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &_descr {
+            color: #393939;
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 26px;
+            text-align: center;
+            &_bold {
+                font-weight: 600;
+            }
+        }
+    }
+    &__arrow {
+        margin-top: 55px;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__title {
+        color: #393939;
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 30.04px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 33px;
+        margin-bottom: 37px;
+    }
+}

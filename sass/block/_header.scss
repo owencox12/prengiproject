@@ -1,0 +1,37 @@
+.header {
+    min-height: 85px;
+    background-color: #fff;
+    padding: 19px 0;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    &__item {
+        display: flex;
+
+    }
+    &__descr {
+        color: #242424;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 300;
+        margin-left: 11px;
+        &_email {
+            font-weight: 300;
+        }
+    }
+    &__tel {
+        color: #242424;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+    }
+    &__country {
+            font-size: 14px;
+            font-weight: 700;
+            color: #242424;
+            font-family: Roboto;
+    }
+}

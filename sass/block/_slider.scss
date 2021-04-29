@@ -1,0 +1,36 @@
+.swiper-container {
+    overflow: hidden;
+    z-index: 0;
+}
+.swiper-wrapper {
+    min-height: 600px;
+}
+.swiper-button-prev{
+        
+    background: none;
+    border: none;
+}
+.swiper-button-next{
+    
+    background: none;
+    border: none;
+    font-size: 10px;
+    
+}
+
+.swiper-pagination {
+    left: 46%;
+    top: 95%;
+    z-index: 0;
+    &-bullet {
+        width: 13px;
+        height: 13px;
+        color:#fff;
+        border: 1px solid #fff;
+        margin-right: 5px;
+    }
+
+}
+.swiper-pagination-bullet-active {
+    background: #fff;
+}
